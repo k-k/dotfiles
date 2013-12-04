@@ -50,11 +50,11 @@ export PS1='\n\[$bold\]\[$black\][\[$dk_blue\]\@\[$black\]]-[\[$green\]\u\[$yell
 
 # Aliases!
 alias ls='ls -ph'
-alias dir='dir -F --color=always'
 alias ll='ls -l'
-alias cp='cp -iv'
-alias rm='rm -i'
-alias mv='mv -iv'
 alias ..='cd ..'
-alias vi="mvim $1"
-alias hub="ssh keith@ssh.elephanthub.net"
+
+# If MacVim is installed, use that
+if [[ -e /usr/bin/mvim || -e /usr/local/bin/mvim || -e /bin/mvim ]]; then
+    alias vi="mvim $1"
+fi
+

@@ -15,7 +15,10 @@
 
 "Set Colorscheme {
 	set background=dark
+    let g:gruvbox_italic = 0
+    let g:gruvbox_termcolors=16
 	colorscheme gruvbox 
+    set mouse=a
 "}
 
 "Set Tabs {
