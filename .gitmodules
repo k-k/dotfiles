@@ -1,0 +1,24 @@
+[submodule ".vim/bundle/vim-pdv"]
+	path = .vim/bundle/vim-pdv
+	url = https://github.com/tobyS/pdv.git
+[submodule ".vim/bundle/vim-surround"]
+	path = .vim/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/vim-php-namespace"]
+	path = .vim/bundle/vim-php-namespace
+	url = git://github.com/arnaud-lb/vim-php-namespace.git
+[submodule ".vim/bundle/vim-tagbar"]
+	path = .vim/bundle/vim-tagbar
+	url = git://github.com/majutsushi/tagbar
+[submodule ".vim/bundle/vim-twig"]
+	path = .vim/bundle/vim-twig
+	url = https://github.com/lunaru/vim-twig.git
+[submodule ".vim/bundle/vim-unite"]
+	path = .vim/bundle/vim-unite
+	url = https://github.com/Shougo/unite.vim.git
+[submodule ".vim/bundle/vim-vmustache"]
+	path = .vim/bundle/vim-vmustache
+	url = https://github.com/tobyS/vmustache.git
+[submodule "vim-php-syntax"]
+	path = vim-php-syntax
+	url = git@github.com:kmfk/php.vim.git
