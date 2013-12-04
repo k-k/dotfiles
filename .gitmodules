@@ -22,3 +22,6 @@
 [submodule "vim-php-syntax"]
 	path = vim-php-syntax
 	url = git@github.com:kmfk/php.vim.git
+[submodule ".vim/bundle/vim-gruvbox"]
+	path = .vim/bundle/vim-gruvbox
+	url = https://github.com/morhetz/gruvbox.git
