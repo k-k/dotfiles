@@ -1,5 +1,2 @@
-[user]
-   email = kkirk@undergroundelephant.com
-   name = keith kirk
 [core]
 	excludesfile = ~/.gitignore_global
