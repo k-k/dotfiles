@@ -5,6 +5,8 @@ source ~/.bash_git
 
 if [ -f /etc/bash_completion ]; then
     source /etc/bash_completion
+else
+    source ~/git-completion.bash
 fi
 
 __has_parent_dir () {
