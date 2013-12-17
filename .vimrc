@@ -22,7 +22,7 @@
 "}
 
 " Change Map Leader {
-    set mapleader = ","
+    let mapleader = ","
 "}
 
 " Better Line Wrapping {
