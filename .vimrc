@@ -25,10 +25,7 @@
     let mapleader = ","
 "}
 
-" Better Line Wrapping {
-    set wrap                                                                        
-    set textwidth=79                                                                
-    set formatoptions=qrn1                                                          
+" Avoid overly long lines {
     set colorcolumn=80
 "}
 
@@ -48,7 +45,7 @@
 
 "Set Line Numbers - Only in MacVim {
     if has("gui_macvim")
-        "set nu
+        set nu
         set relativenumber
     endif
 "}
