@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/vim-gruvbox"]
 	path = .vim/bundle/vim-gruvbox
 	url = https://github.com/morhetz/gruvbox.git
+[submodule ".vim/bundle/vim-php-cs-fixer"]
+	path = .vim/bundle/vim-php-cs-fixer
+	url = https://github.com/stephpy/vim-php-cs-fixer.git

@@ -122,6 +122,10 @@
     endfunc
 "}
 
+" Run PHP CS Fixer - https://github.com/fabpot/PHP-CS-Fixer {
+    nnoremap <silent><leader>pcf :call PhpCsFixerFixFile()<CR>
+"}
+
 " Remove trailing Whitespace {
     nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 "}
