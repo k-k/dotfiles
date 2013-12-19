@@ -8,7 +8,7 @@ if [ -e ~/.vim ]; then
     sudo rm -r ~/.vim
 fi
 
-# Copt the required files to the home directory
+# Copy the required files to the home directory
 cp -r .bash_git .bash_profile .bashrc .gitconfig .gitignore_global .vimrc .vim git-completion.bash ~/
 
 # Setup .gitconfig
