@@ -3,13 +3,13 @@
 	url = https://github.com/tobyS/pdv.git
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule ".vim/bundle/vim-php-namespace"]
 	path = .vim/bundle/vim-php-namespace
-	url = git://github.com/arnaud-lb/vim-php-namespace.git
+	url = https://github.com/arnaud-lb/vim-php-namespace.git
 [submodule ".vim/bundle/vim-tagbar"]
 	path = .vim/bundle/vim-tagbar
-	url = git://github.com/majutsushi/tagbar
+	url = https://github.com/majutsushi/tagbar
 [submodule ".vim/bundle/vim-twig"]
 	path = .vim/bundle/vim-twig
 	url = https://github.com/lunaru/vim-twig.git
@@ -21,7 +21,7 @@
 	url = https://github.com/tobyS/vmustache.git
 [submodule "vim-php-syntax"]
 	path = vim-php-syntax
-	url = git@github.com:kmfk/php.vim.git
+	url = https://github.com/kmfk/php.vim.git
 [submodule ".vim/bundle/vim-php-cs-fixer"]
 	path = .vim/bundle/vim-php-cs-fixer
 	url = https://github.com/stephpy/vim-php-cs-fixer.git
