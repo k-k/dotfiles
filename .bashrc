@@ -51,8 +51,9 @@ reset=$(tput -Txterm sgr0)
 export PS1='\n\[$bold\]\[$black\][\[$dk_blue\]\@\[$black\]]-[\[$green\]\u\[$yellow\]@\[$green\]\h\[$black\]]-[\[$pink\]\w\[$black\]]\[\033[0;33m\]$(__vcs_name) \[\033[00m\]\[$reset\]\n\[$reset\]\$ '
 
 # Aliases!
-alias ls='ls -ph'
-alias ll='ls -l'
+alias ls='ls -ph --color=auto'
+alias ll='ls -lsh --color=auto'
+alias la='ls -lsha --color=auto'
 alias ..='cd ..'
 
 # If MacVim is installed, use that
