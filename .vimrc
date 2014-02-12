@@ -55,12 +55,6 @@
     set visualbell
 "}
 
-"Folding {{
-    let g:php_folding=1
-    set foldmethod=syntax
-"}}
-
-
 "Home & End Keymapping {
     map  $
     imap  $
